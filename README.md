@@ -3,23 +3,23 @@
 This Python package provides a system for semantically ranking and highlighting segments of YouTube video transcripts based on user queries. It uses state-of-the-art sentence embeddings and semantic search to find the most relevant parts of a transcript that match a user's query.
 
 ## Features
-- # Semantic Search:
+- ### Semantic Search:
   Finds transcript segments that are conceptually related to the query, not just exact keyword matches.
-- # Diversity Algorithm:
+- ### Diversity Algorithm:
   Uses Maximal Marginal Relevance (MMR) to ensure diverse results
-- # Sentence Ranking:
+- ### Sentence Ranking:
   Ranks sentences by relevance to the query
-- # Context Highlighting:
+- ### Context Highlighting:
   Provides surrounding context for each highlighted sentence
-- # FAISS Integration:
+- ### FAISS Integration:
   Leverages FAISS for efficient vector similarity search
 
 ## How It Works
-- # Transcript Processing:
+- ### Transcript Processing:
   Splits transcript into sentences and generates embeddings using SentenceTransformer
-- # Vector Indexing:
+- ### Vector Indexing:
   Stores embeddings in FAISS for fast retrieval
-- # Query Processing:
+- ### Query Processing:
   Converts user query to an embedding vector
-- # Similarity Searc:
+- ### Similarity Searc:
    Finds the most similar transcript segments
